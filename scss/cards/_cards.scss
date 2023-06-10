@@ -1,0 +1,19 @@
+
+img {                 
+    flex-grow: 1;                 
+    object-fit: cover;                 
+    opacity: .2;                 
+    transition: .4s ease;                
+    margin: 2px;                
+    border: solid 1px $color-9;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px $color-10;            
+}              
+
+img {                 
+    cursor: crosshair;                 
+    width: 300px;                 
+    opacity: 1.2;
+    filter: contrast(100%);
+}
+

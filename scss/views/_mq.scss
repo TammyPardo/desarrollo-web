@@ -1,0 +1,78 @@
+@media (max-width:480px){         
+    .formulario{             
+        width: 100%;         
+    }     
+}     
+
+@media screen and (max-width: 64em) {         
+    
+    h1 {             
+        font-size: 3em;         
+    }     
+}      
+
+@media screen and (max-width: 50em) {         
+    h1 {             
+        font-size: 2.5em;         
+    }     
+
+}      
+
+@media screen and (max-width: 30em){         
+    h1 {             
+        font-size: 2em;         
+    }     
+}      
+
+@media screen and (max-width: 64em) {         
+    h2 {             font-size: 2em;         
+    }     
+}      
+
+@media screen and (max-width: 50em) {         
+    h2 {             
+        font-size: 1.5em;         
+    }     
+}      
+
+@media screen and (max-width: 64em) {         
+    h3 {             
+        font-size: 2em;         
+    }     
+}      
+
+@media screen and (max-width: 50em) {         
+    h3 {             
+        font-size: 1.5em;         
+    }     
+}      
+
+@media screen and (max-width: 64em) {         
+    
+    h4{             
+        font-size: 2em;         
+    }     
+}      
+
+@media screen and (max-width: 50em) {         
+    
+    h4 {             
+        font-size: 1.2em;         
+    }     
+} 
+
+.map-responsive {     
+    overflow:hidden;     
+    padding-bottom:400px;      
+    position:relative;      
+    height:0;      
+    
+    iframe{         
+        left:0;          
+        top:0;          
+        height:100%;          
+        width:100%;          
+        position:absolute;     
+    } 
+
+} 

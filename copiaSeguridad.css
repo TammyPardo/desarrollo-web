@@ -161,6 +161,61 @@ textarea{
     width: 100%;
 }
 }
+@media screen and (max-width: 64em) {
+    h1 {
+        font-size: 3em;
+      }
+}
+    
+@media screen and (max-width: 50em) {
+    h1 {
+        font-size: 2.5em;
+      }
+}
+    
+@media screen and (max-width: 30em){
+    h1 {
+        font-size: 2em;
+      }
+}
+
+@media screen and (max-width: 64em) {
+    h2 {
+        font-size: 2em;
+      }
+}
+    
+@media screen and (max-width: 50em) {
+    h2 {
+        font-size: 1.5em;
+      }
+}
+
+@media screen and (max-width: 64em) {
+    h3 {
+        font-size: 2em;
+      }
+}
+    
+@media screen and (max-width: 50em) {
+    h3 {
+        font-size: 1.5em;
+      }
+}
+
+@media screen and (max-width: 64em) {
+    h4{
+        font-size: 2em;
+      }
+}
+    
+@media screen and (max-width: 50em) {
+    h4 {
+        font-size: 1.2em;
+      }
+}
+    
+
 
 .map-responsive {
     overflow:hidden;
@@ -180,7 +235,7 @@ textarea{
 
 footer {
     text-align: center;
-      background-color: rgb(53, 53, 53);
+     background-color: rgb(53, 53, 53); 
       height: 9vh;
       font-family: 'sans-serif', sans-serif;
 }
