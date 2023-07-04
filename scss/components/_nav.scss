@@ -26,8 +26,10 @@ body {
         width: 450px;         
         height: 750px;         
         border-color: $color-8;         
-        transition: .5s ease; 
+        transition: .1s ease; 
     }
+    
+    
 } 
 
 
@@ -39,12 +41,15 @@ main {
 
 .contenedorImg:hover {
     box-shadow: $color-4;
-    margin-top: -20px;
+    margin-top: -15px;
+    transition: 0.3s;
 
 }
 
+
 .contenedorImg p {
-    color: $color-4;
+    color: $color-14;
     font-size: 15px;
     padding: 10px 20px;
+    
 }
